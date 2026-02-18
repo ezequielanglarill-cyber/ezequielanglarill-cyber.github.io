@@ -1,0 +1,76 @@
+ <doctype></doctype><html></html>
+
+<head> 
+  <title>Rasta Web
+  </title>
+  </title>Rasta Web</title><h1>Bienvenidos</h1>
+  <body>
+    Hola soy el rasta, gracias por visitar mi primera pagina web, quiero dedicar mi primer pagina web a mi amigo el guillote,aqui dejo un recuerdo,sabpeee !
+  </body>
+   <meta charset="utf-8" />
+  <title>jQuery UI Dialog - Default functionality</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script>
+  body {
+    font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+    font-size: 62.5%;
+}
+
+  </script>
+  <script>
+  $(function() {
+    $( "#dialog" ).dialog();
+  });
+  </script>
+  <head>
+    <meta charset="utf-8" />
+    <title>jQuery UI Dialog - Default functionality</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <style>
+    body {
+      font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+      font-size: 62.5%;
+    }
+    </style>
+    <script>
+    $(function() {
+      $("#dialog").dialog({ autoOpen: false });
+      $("#open-dialog").on("click", function() {
+        var src = $("#dialog img").attr("src") || '';
+        src = src.replace(/\\/g, '/');
+        var img = '<img src="' + src + '" alt="Imagen" style="max-width:100%; height:auto;" />';
+        $("#image-container").html(img).show();
+      });
+    });
+    </script>
+  </head>
+<body>
+
+<div id="dialog" title="Foton">
+  <p>Sorpresa</p>
+  <img src="C:\Users\ezequ\OneDrive\Documents\Imagenes\png.rastafoto.jpeg" alt="Placeholder Image" style="display:none;" />
+
+</div>
+
+
+<button id="open-dialog">Click Here Bitch</button>
+<div id="image-container" style="display:none; margin-top:10px;"></div>
+
+  
+
+
+    </body>
+
+
+
+
+</head>
+
+
+
+
+</html>
